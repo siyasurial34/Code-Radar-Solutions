@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    char ch;
-    scanf("%ch",&ch);
+    int num;
+    scanf("%d",&num);
     printf("Hexadecimal: 0x%X\n",ch);
     printf("Octal: 0%o\n");
     return 0;
