@@ -7,6 +7,5 @@ int main() {
     result= num<<shift;
 
     printf("%d",result);
-    printf("%s", welcome());
     return 0;
 }
