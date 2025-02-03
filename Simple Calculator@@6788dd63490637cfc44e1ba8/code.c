@@ -3,12 +3,12 @@ int main(){
     int a ,b;
     scanf("%d %d",&a,&b);
 
-    char op;
-    scanf("%c",&op);
+    char operator;
+    scanf("%c",&operator);
 
     int result;
 
-    switch(op){
+    switch(operator){
         case '+':
         result = a+b;
         printf("%d", result);
