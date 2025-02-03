@@ -3,7 +3,7 @@ int main() {
     int num;
     scanf("%d",&num);
 
-    switch(num){
+    switch (num){
         switch 1:
         printf("31");
         break;
