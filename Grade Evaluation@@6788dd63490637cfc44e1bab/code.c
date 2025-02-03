@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    char str[1];
-    scanf(" %s",str);
+    char ch;
+    scanf("%c",ch);
 
-    if(str == 'A'){
+    if(ch == 'A'){
         printf("Excellent");
     }
-    else if(str == 'B'){
+    else if(ch == 'B'){
         printf("Good");
     }
-    else if(str == 'C'){
+    else if(ch == 'C'){
         printf("Average");
     }
-    else if(str == 'D'){
+    else if(ch == 'D'){
         printf("Below Average");
     }
-    else if(str == 'F'){
+    else if(ch == 'F'){
         printf("Fail");
     }
     else{
