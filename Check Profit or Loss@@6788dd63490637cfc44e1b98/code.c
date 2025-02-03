@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int cost_price,selling_price;
-    scanf("%d %d",&cost_price,&selling_price);
+    int cp,sp;
+    scanf("%d %d",&cp,&sp);
 
-    if(cost_price < selling_price){
+    if(cp < sp){
         printf("Profit");
     }
-    else if(cost_price < selling_price){
+    else if(cp < sp){
         printf("Loss");
     }
     else{
-        printf(No Profit No Loss);
+        printf("No Profit No Loss");
     }
     return 0;
 }
