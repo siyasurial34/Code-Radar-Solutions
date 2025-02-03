@@ -6,13 +6,17 @@ int main(){
     char op;
     scanf("%c",&op);
 
+    int result;
+
     switch(op){
         case '+':
-        printf("%d", a+b);
+        result = a+b;
+        printf("%d", result);
         break;
 
         case '-':
-        printf("%d",a-b);
+        result=a-b;
+        printf("%d",result);
         break;
     }
     return 0;
