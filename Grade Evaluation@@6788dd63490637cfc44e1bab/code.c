@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char ch;
-    scanf(" %c",ch);
+    char str[1];
+    scanf(" %s",ch);
 
-    if(ch == A){
+    if(ch == 'A'){
         printf("Excellent");
     }
     else if(ch == 'B'){
