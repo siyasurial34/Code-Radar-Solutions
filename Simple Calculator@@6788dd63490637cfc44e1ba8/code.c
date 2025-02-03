@@ -9,7 +9,7 @@ int main(){
     int result;
 
     switch(operator){
-        case +:
+        case '+':
         result = a+b;
         printf("%d", result);
         break;
