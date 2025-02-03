@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char ch;
+    char ch[1];
     scanf("%c",ch);
 
     if(ch == 'A'){
@@ -16,8 +16,11 @@ int main() {
     else if(ch == 'D'){
         printf("Below Average");
     }
-    else{
+    else if(ch == 'F'){
         printf("Fail");
+    }
+    else{
+        printf("Invalid grade");
     }
     
       
