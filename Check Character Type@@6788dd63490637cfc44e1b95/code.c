@@ -10,7 +10,7 @@ int main() {
     x=='A' || x=='E' || x=='I' || x=='O' || x=='U'){
         printf("Vowels");
     }
-    else if((x>='a' && x<= 'z') || (x>='A' && x<='Z') ){
+    else if((x>'a' && x<= 'z') || (x>'A' && x<='Z') ){
         printf("Consonent");
     }
     else{
