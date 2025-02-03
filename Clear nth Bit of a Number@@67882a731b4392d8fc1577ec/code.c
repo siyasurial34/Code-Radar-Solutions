@@ -8,6 +8,6 @@ int main() {
         return 1;
     }
     int new_val = num & ~(1 << n);
-    printf("%d"new_val);
+    printf("%d",new_val);
     return 0;
 }
