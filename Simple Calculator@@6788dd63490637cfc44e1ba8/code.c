@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,b;
+    int a,b,result;
     scanf("%d %d",&a,&b);
 
     char op;
@@ -9,7 +9,8 @@ int main() {
 
     switch(op){
         case '+':
-        printf("%d",a+b);
+        result = a+b;
+        printf("%d",result);
         break;
 
         case '-':
@@ -23,7 +24,7 @@ int main() {
         case '/':
         printf("%d",a/b);
         break;
-        
+
 
         default:
         printf("Invalid");
