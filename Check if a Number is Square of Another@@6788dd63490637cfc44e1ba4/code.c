@@ -4,8 +4,9 @@
 int main() {
     int a ,b;
     scanf("%d %d",&a,&b);
-
-    if(a==pow(b,2)){
+    int power;
+    power=pow(b,2);
+    if(power==a){
         printf("Yes");
     }
     else{
