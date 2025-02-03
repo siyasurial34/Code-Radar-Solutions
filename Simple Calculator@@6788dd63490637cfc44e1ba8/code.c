@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,result;
+    int a,b;
+    float result;
     scanf("%d %d",&a,&b);
 
     char op;
@@ -10,23 +11,23 @@ int main() {
     switch(op){
         case '+':
         result = a+b;
-        printf("%d",result);
+        printf("%f",result);
         break;
 
         case '-':
         result=a-b;
-        printf("%d",result);
+        printf("%f",result);
         break;
 
         case '*':
         result=a*b;
-        printf("%d",result);
+        printf("%f",result);
         break;
 
         case '/':
         if(b!=0){
             result = a/b;
-            printf("%d",result);
+            printf("%f",result);
         }
         else{
             printf("Error");
