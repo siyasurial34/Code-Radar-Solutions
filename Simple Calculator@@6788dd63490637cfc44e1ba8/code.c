@@ -6,10 +6,10 @@ int main(){
     char op;
     scanf("%c",&op);
 
-    switch(operator){
+    switch(op){
         case '+':
-            printf("%d", a+b);
-            break;
+        printf("%d", a+b);
+        break;
     }
     return 0;
 }
