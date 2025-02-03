@@ -4,7 +4,7 @@ int main(){
     scanf("%d %d",&a,&b);
 
     char operator;
-    scanf("%c",&operator);
+    scanf(" %c",&operator);
 
     int result;
 
