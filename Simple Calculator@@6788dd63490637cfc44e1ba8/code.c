@@ -29,7 +29,7 @@ int main() {
             printf("%d",result);
         }
         else{
-            print("Error");
+            printf("Error");
         }
         break;
 
