@@ -21,7 +21,7 @@ int main(){
         break;
 
         case 'F':
-        print("Fail");
+        printf("Fail");
         break;
     }
     return 0;
