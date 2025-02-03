@@ -4,24 +4,24 @@ int main() {
     char ch;
     scanf("%c",ch);
 
-    switch(ch){
-        case 'A':
+    if(ch == 'A'){
         printf("Excellent");
-        break;
-        case 'B':
-        printf("Good");
-        break;
-        case 'C':
-        printf("Average");
-        break;
-        case 'D':
-        printf("Below Average");
-        break;
-        case 'F':
-        printf("Fail");
-        break;
-        default:
-        printf("Invalid grade");
     }
+    else if(ch == 'B'){
+        printf("Good");
+    }
+    else if(ch == 'C'){
+        printf("Average");
+    }
+    else if(ch == 'D'){
+        printf("Below Average");
+    }
+    else if(ch == 'F'){
+        printf("Fail");
+    }
+    else{
+        printf("Invalid Grade");
+    }
+      
     return 0;
 }
