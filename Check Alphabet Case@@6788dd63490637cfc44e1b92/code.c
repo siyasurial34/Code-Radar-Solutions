@@ -9,6 +9,5 @@ int main() {
     else{
         printf("Lowercase");
     }
-    printf("%s", welcome());
     return 0;
 }
