@@ -7,7 +7,7 @@ int main() {
     if(n<0 || n>31){
         return 1;
     }
-    new_num= num ^ (1<< n);
+    int new_num= num ^ (1<< n);
     printf("%d",new_num);
     return 0;
 }
