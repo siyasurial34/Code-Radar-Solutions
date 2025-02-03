@@ -2,7 +2,7 @@
 
 int main() {
     int num,n;
-    scanf("%d %c",&num,&n);
+    scanf("%d %d",&num,&n);
 
     if(n<0 || n>31){
         return 1;
