@@ -4,10 +4,11 @@ int main() {
     scanf("%d %d",&num,&n);
 
     if(n<0 || n>31){
+        
         return 1;
     }
     int bit_val;
     bit_val = (num>>n) & 1;
-    print("%d",bit_val);
+    printf("%d",bit_val);
     return 0;
 }
