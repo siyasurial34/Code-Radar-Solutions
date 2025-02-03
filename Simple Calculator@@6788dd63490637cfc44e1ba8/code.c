@@ -14,17 +14,27 @@ int main() {
         break;
 
         case '-':
-        printf("%d",a-b);
+        result=a-b;
+        printf("%d",result);
         break;
 
         case '*':
-        printf("%d",a*b);
+        result=a*b;
+        printf("%d",result);
         break;
 
         case '/':
-        printf("%d",a/b);
+        if(b!=0){
+            result = a/b;
+            printf("%d",result);
+        }
+        else{
+            print("Error");
+        }
         break;
 
+        default:
+        printf("Invalid";)
 
     }
     return 0;
