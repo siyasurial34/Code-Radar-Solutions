@@ -18,6 +18,21 @@ int main(){
         result=a-b;
         printf("%d",result);
         break;
+
+        case '*':
+        result=a*b;
+        printf("%d",result);
+        break;
+
+        case '/':
+        if(b!=0){
+            result = a/b;
+            printf("%d",result);
+        }
+        else{
+            printf("Error");
+        }
+        break;
     }
     return 0;
 }
