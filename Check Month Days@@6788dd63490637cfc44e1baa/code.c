@@ -4,51 +4,51 @@ int main() {
     scanf("%d",&num);
 
     switch (num){
-        switch 1:
+        case 1:
         printf("31");
         break;
 
-        switch 2:
+        case 2:
         printf("28");
         break;
 
-        switch 3:
+        case 3:
         printf("31");
         break;
 
-        switch 4:
+        case 4:
         printf("30");
         break;
 
-        switch 5:
+        case 5:
         printf("31");
         break;
 
-        switch 6:
+        case 6:
         printf("30");
         break;
 
-        switch 7:
+        case 7:
         printf("31");
         break;
 
-        switch 8:
+        case 8:
         printf("30");
         break;
 
-        switch 9:
+        case 9:
         printf("31");
         break;
 
-        switch 10:
+        case 10:
         printf("30");
         break;
 
-        switch 11:
+        case 11:
         printf("31");
         break;
 
-        switch 12:
+        case 12:
         printf("30");
         break;
 
