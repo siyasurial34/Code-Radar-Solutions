@@ -7,7 +7,7 @@ int main() {
     int msb_num;
     msb_num=1<<31;
 
-    if(num and msb_num){
+    if(num & msb_num){
         printf("Set");
     }
     else{
