@@ -3,7 +3,7 @@
 int main() {
     int N;
     scanf("%d",&N);
-    itn a=1;
+    int a=1;
     int sum=0;
     while(a<=N){
         sum+=a;
