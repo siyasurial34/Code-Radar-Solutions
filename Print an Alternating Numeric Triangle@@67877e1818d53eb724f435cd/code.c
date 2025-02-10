@@ -10,7 +10,12 @@ int main() {
                 printf("%d",j%2);
             }
             else{
-                printf("%d",j%2);
+                if(j%2!=0){
+                    printf("0");
+                    else{
+                        printf("1");
+                    }
+                }
             }
         }
         printf("\n");
