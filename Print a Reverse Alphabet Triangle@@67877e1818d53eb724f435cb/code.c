@@ -7,7 +7,7 @@ int main() {
     for(int i=rows; i>=1; i--){
         int c=65;
         for(int j=1; j<=i; j++){
-            printf("%c",c);
+            printf("%c ",c);
             c+=1;
         }
         printf("\n");
