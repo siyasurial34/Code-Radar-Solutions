@@ -8,8 +8,8 @@ int main() {
         for(int j=1; j<=rows; j++){
             printf("*");
         }
-        for(int i=2; i<=rows; i++){
-            for(int j=1; j<=i; j++){
+        for(int k=2; k<=rows; k++){
+            for(int l=1; l<=i; l++){
                 printf("*");
             }
         }
