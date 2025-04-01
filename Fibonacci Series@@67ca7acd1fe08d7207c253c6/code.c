@@ -3,9 +3,8 @@ int fibonacciSeries(int n){
     if(n==1){
         return 0;
     }
-    printf("0 1");
+    
     if(n>0){
-        
       n3=n1+n2;
       printf("%d",n3);
       n1=n2;
