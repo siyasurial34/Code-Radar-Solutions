@@ -4,12 +4,10 @@ int fibonacciSeries(int n){
         return 0;
     }
     printf("0 1");
-    if(n>0){
-        
-      n3=n1+n2;
-      printf("%d",n3);
-      n1=n2;
-      n2=n3;
-      fibonacciSeries(n-1);
+    for (int i = 2; i < n; i++) {
+        n3 = n1 + n2;
+        printf("%d ", n3);
+        n1 = n2;
+        n2 = n3;
     }
 }
